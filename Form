@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<form id="register">
+<fieldset>
+<legend>Registration</legend>
+<label for="username">User name</label>
+<input type="text" required id="username" name="fname" placeholder="Enter your full name">
+<input type="hidden" name="fname0" value="">
+
+<label for="uName">Status</label>
+<select name="status">
+<option value="student">Student</option>
+<option value="professional">Professional</option>
+</select>
+
+<label for="email">E-mail</label>
+<input type="email" required id="email" name="email" placeholder="Enter your email"><br>
+
+<label for="phone">Phone</label>
+<input type="tel" required id="phone" name="phone" placeholder="514-123-4567">
+
+<label for="website">Website</label>
+<input type="url" required id="website" name="web" placeholder="website link">
+
+<label for="about">About</label>
+
+<label for="about">Cities you visited</label>
+<select name="cities" value="montreal" multiple>
+<option value="london">London</option>
+<option value="montreal" selected>Montreal</option>
+<option value="nyc">New York</option>
+<option value="paris">Paris</option>
+
+</select>
+
+<label for="password">Password</label>
+<input type="password" id="password" placeholder="enter password">
+
+<label for="password">Confirm Password</label>
+<input type="password" id="password" placeholder="enter password again">
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</fieldset>
+</form>
+
+<form>
+<fieldset>
+<legend>Search the Site</legend>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+<button>Search</button>
+</fieldset>
+</form>
+
+<form>
+<fieldset>
+<legend>Options</legend>
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" /><br>
+</fieldset>
+  </form>
+<form>
+<fieldset>
+<legend>Gender</legend>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+</fieldset>
+  </form>
+<form>
+<fieldset>
+<legend>Languages</legend>
+<input type="checkbox" name="lang1" value="french"> I speak french<br>
+<input type="checkbox" name="lang2" value="english"> I speak english<br>
+<input type="checkbox" name="lang3" value="spanish"> I speak spanish<br>
+</fieldset>
+  </form>
+<form>
+<fieldset>
+<legend>Photo</legend>
+File: <input type="text" name="fname"><br>
+<button type="button" name="button">Upload</button>
+ </fieldset>
+</form>
+</body>
+</html>
